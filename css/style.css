@@ -1,0 +1,101 @@
+html{height:100%;}
+body, div, span,  h1, h2, h3, h4, h5, h6, article, footer, header, nav, section, img, ul,p{margin:0;padding:0;border:0;}
+p,li,h1,h2,h3,h4,h5,h6,span,a,div{font-family: 'Noto Sans', sans-serif;font-weight: 400}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block;}
+body{font-size:100%;line-height:1.6;max-height:100%;width:100%;height:100%;background:#fff;}
+img{max-width:100%;border:0;}
+ul li {list-style: none;}
+a, a:hover {text-decoration: none; }
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;-o-box-sizing: border-box;box-sizing: border-box; }
+.clear{clear: both;}
+
+body{background: #f2f2f2;overflow-x: hidden;}
+#header{background: #fff;width: 100%;vertical-align: middle;box-shadow: 2px 0px 4px #000;}
+.headerContainer{max-width: 1262px;margin: 0 auto;position: relative}
+#header .letHeader{display: inline-block;}
+#header .logo{display: inline-block;vertical-align: top;padding: 10px 0;}
+#header .logo a{display: block;}
+#header nav {display: inline-block;}
+#header nav ul{display: block;}
+#header nav li{float: left;}
+#header nav  li a{font-size: 16px;display: block;margin: 0 50px;color: #000;padding: 25px 0;}
+#header nav  li:hover a,#header nav  li a.titleActive{color: #007f72;}
+#header .rightHeader{float: right;}
+#header .rightHeader .rewards{display: inline-block;vertical-align: top;}
+#header .rightHeader .rewards a{display: block;text-transform: uppercase;color: #000;padding:25px 0px;padding-right: 40px}
+#header .rightHeader .navignPanel{display: inline-block;}
+#header .rightHeader .navignPanel .icon{position: relative;}
+#header .rightHeader .navignPanel .icon a.pic {display: block;padding: 10px 0;padding-right: 38px;position: relative}
+#header .rightHeader .navignPanel .icon a.pic:after{position: absolute;content: '';top: 31px;right: 14px;height: 13px;width: 15px;background: url(../images/down-arrow.png) no-repeat center center}
+#header .rightHeader .navignPanel .picIcon{position: relative;display: block;width: 50xp}
+#header .rightHeader .navignPanel .notify{position: absolute;border-radius: 50%;width: 14px;height: 14px;background: #ff3b30;top: 10px;right: -7px;z-index: 1;}
+#header .rightHeader .navignList{visibility: hidden;background: #fff;right: -160px;position: absolute;width: 320px;box-shadow: 0px 0px 4px #000;z-index: 1;transition:  0.2s width ease-in;}
+#header .rightHeader .navignPanel .icon:hover > .navignList{visibility: visible;transition:  0.2s right ease-in;right: 0}
+#header .rightHeader .user{width: 100%;padding: 11px;}
+#header .rightHeader .user .propilpic,#header .rightHeader .user .userInfo{display: inline-block;vertical-align: top;padding: 0 15px;}
+#header .rightHeader .user .propilpic{border-right: 1px solid #d3d5d7}
+#header .rightHeader .user .name{display: block;color: #000;font-size: 16px}
+#header .rightHeader .user a.tel,#header .rightHeader .user a.email{display: block;color: #9b9b9b;font-size: 12px}
+#header .rightHeader  ul li a {display: block;padding: 8px 20px 8px 16px;color: #000;border-bottom: 1px solid #d3d5d7}
+#header .rightHeader  ul > li:first-child a {border-top: 1px solid #d3d5d7}
+#header .rightHeader  ul.menu{margin-bottom: 45px;}
+#header .rightHeader  ul.menu li a{display: block;}
+#header .rightHeader  ul.menu li:hover a{background: #276c83;color: #fff;}
+#header .rightHeader  ul.adminMenu li a{position: relative;padding-right: 38px;padding-left: 46px;}
+#header .rightHeader  ul.adminMenu li a:after{position: absolute;content: '';top: 16px;right: 20px;height: 13px;width: 8px;background: url(../images/right-arrow.png) no-repeat center center}
+#header .rightHeader  ul.adminMenu li a:before{position: absolute;content: '';top: 14px;left: 15px;height: 16px;width: 16px;background-repeat:  no-repeat;background-position: center center;background-size: cover}
+#header .rightHeader  ul.adminMenu li.supMessg a{color: #007aff}
+#header .rightHeader  ul.adminMenu li.admnMessg a{color: #ff3b30}
+#header .rightHeader  ul.adminMenu li.supMessg a:before{background-image: url(../images/mail-blue.png);}
+#header .rightHeader  ul.adminMenu li.admnMessg a:before{background-image: url(../images/admin-outlline.png);}
+#header .rightHeader  ul.adminMenu li a .count{width: 40px;float: right;}
+#header .rightHeader  ul.adminMenu li:hover a{background: #f9f9f9}
+#header .rightHeader  ul.adminMenu li.supMessg a .count{color: #007aff}
+#header .rightHeader  ul.adminMenu li.admnMessg a .count{color: #ff3b30}
+#section{width: 100%;}
+#section .container{max-width: 1110px;margin: 0 auto;position: relative;margin-top: 60px;}
+#section .header{background: #f9f9f9;padding: 0 30px;width: 100%}
+#section .header h2{padding: 30px 0;font-size: 24px;}
+#section .header .tabList{margin-top: 5px;}
+#section .header .tabList li{display: inline-block;} 
+#section .header .tabList li a{display: block;color: #007f72;position: relative;padding:0  35px 7px 35px;text-transform: uppercase;text-align: center;cursor: text;}  
+#section .header .tabList li a:before{position: absolute;content: '';bottom: 0;height: 4px;width: 0;background: #007f72;transition:  0.2s width ease-in;margin: 0 auto;left: 0;right: 0;} 
+#section .header .tabList li a.tabListactive:before,#section .header .tabList li a:hover:before{width: 100%;transition:  0.2s width ease-in} 
+#section .information .tabPane{min-height: 400px;background: #fff;width: 100%}
+#section .titlepane{display: none;}
+#section .titlepane.tabActive{display: block;}
+
+@media screen and (max-width : 1262px) { 
+    .headerContainer{max-width: 95%;margin: 0 auto;}
+}
+@media screen and (max-width : 1190px) { 
+    #section .information .tabPane{background: green;}
+}
+@media screen and (max-width : 1110px) { 
+    #section .container{max-width: 90%;margin: 60px auto;}
+}
+@media screen and (max-width : 944px) { 
+    #section .information .tabPane{background:blue;}
+}
+@media screen and (max-width : 821px) { 
+    
+    #header nav  li a{margin: 0 10px }
+    #header .rightHeader .rewards a{padding-right: 10px}
+    
+}
+@media screen and (max-width : 744px) { 
+    #section .information .tabPane{background: #000;}
+}
+
+@media screen and (max-width : 622px) { 
+    #header{text-align: center}
+    #header .rightHeader .navignPanel{text-align: left}
+    .headerContainer{width: 100%}
+    #header .rightHeader{display: block;float: none;}
+    #header .letHeader{display: block;}
+    #header .rightHeader .navignPanel .icon:hover > .navignList{right: -50%;}
+}
+
+@media screen and (max-width : 598px) { 
+    #section .information .tabPane{background: red;}
+}
